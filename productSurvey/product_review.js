@@ -4,7 +4,7 @@ function submitFeedback() {
     alert('Thank you for your valuable review');
     
     document.getElementById('userName').innerHTML = username;
-    document.getElementById('userExperience').innerHTML = feedback;
+    document.getElementById('userReview').innerHTML = feedback;
 
     document.getElementById('userInfo').style.display = 'block';
 }
